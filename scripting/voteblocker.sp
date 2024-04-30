@@ -11,7 +11,7 @@
 	Plugin Info:
 
 *	Name	:	Vote Blocker
-*	Author	:	Phil Bradley
+*	Author	:	Phil Bradley (edited by Proaxel)
 *	Descrp	:	Options for server owners to block certain votes, give kick-immunity to admins, and pass/veto ongoing votes.
 *	Version :	1.3.4
 *	Link	:	psbj.github.io
@@ -922,7 +922,7 @@ bool:IsClientAuthor(client)
 	GetClientAuthString(client, sAuth, sizeof(sAuth));
 
 	// If the two strings match, return true
-	if (StrEqual(sAuth, "STEAM_1:0:39841182"))
+	if (StrEqual(sAuth, "STEAM_0:1:23046610")) 	//Changed to Proaxel's steamID.
 	{
 		return true;
 	}
